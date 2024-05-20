@@ -1,7 +1,7 @@
 {
   "name": "iedp",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "node server.js",
     "build": "node ace build --production",
