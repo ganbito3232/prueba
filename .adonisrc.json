@@ -1,35 +1,35 @@
 {
-  "metaFile": ".adonisrc.json",
-  "typescript": true,
-  "commands": {},
-  "providers": [
-    "@adonisjs/core",
-    "@adonisjs/lucid"
-  ],
-  "aceProviders": [],
-  "testProviders": [],
-  "aliases": {},
-  "preloads": [],
-  "metaFiles": [
-    ".env"
-  ],
-  "directories": {
-    "config": "config",
-    "public": "public",
-    "resources": "resources",
-    "migrations": "database/migrations",
-    "seeds": "database/seeders",
-    "factories": "database/factories"
-  },
-  "autoloads": {
-    "App": "./app"
-  },
-  "tests": {
-    "suites": [
-      {
-        "name": "functional",
-        "files": ["test/**/*.spec.ts"]
-      }
-    ]
+    "metaFile": ".adonisrc.json",
+    "typescript": true,
+    "commands": {},
+    "providers": [
+      "@adonisjs/core",
+      "@adonisjs/lucid"
+    ],
+    "aceProviders": [],
+    "testProviders": [],
+    "aliases": {},
+    "preloads": [],
+    "metaFiles": [
+      ".env"
+    ],
+    "directories": {
+      "config": "config",
+      "public": "public",
+      "resources": "resources",
+      "migrations": "database/migrations",
+      "seeds": "database/seeders",
+      "factories": "database/factories"
+    },
+    "autoloads": {
+      "App": "./app"
+    },
+    "tests": {
+      "suites": [
+        {
+          "name": "functional",
+          "files": ["test/**/*.spec.ts"]
+        }
+      ]
+    }
   }
-}
